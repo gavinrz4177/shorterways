@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+/target/
+*.class
+
+# Maven
+target/
+*.ser
+*.ec
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# OS X
+.DS_Store
