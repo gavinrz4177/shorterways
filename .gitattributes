@@ -1,35 +1,23 @@
 /target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/
 *.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven
+target/
+*.ser
+*.ec
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
 *.iws
 *.iml
-*.ipr
 
-### Eclipse ###
-*.pydevproject
-.project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
+# Eclipse
 .classpath
+.project
 .settings/
-.loadpath
+.metadata/
+
+# OS X
+.DS_Store
