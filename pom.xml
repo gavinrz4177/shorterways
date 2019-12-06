@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>13</java.version>
-		<vaadin.version>14.0.14</vaadin.version>
+<!-- 		<vaadin.version>14.0.14</vaadin.version> -->
 	</properties>
 
 	<dependencies>
@@ -52,10 +52,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
- 		<dependency>
- 			<groupId>com.vaadin</groupId>
- 			<artifactId>vaadin-spring-boot-starter</artifactId>
- 		</dependency>
+<!--  		<dependency> -->
+<!--  			<groupId>com.vaadin</groupId> -->
+<!--  			<artifactId>vaadin-spring-boot-starter</artifactId> -->
+<!--  		</dependency> -->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -98,13 +98,13 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-bom</artifactId>
-				<version>${vaadin.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
+<!-- 			<dependency> -->
+<!-- 				<groupId>com.vaadin</groupId> -->
+<!-- 				<artifactId>vaadin-bom</artifactId> -->
+<!-- 				<version>${vaadin.version}</version> -->
+<!-- 				<type>pom</type> -->
+<!-- 				<scope>import</scope> -->
+<!-- 			</dependency> -->
 		</dependencies>
 	</dependencyManagement>
 
